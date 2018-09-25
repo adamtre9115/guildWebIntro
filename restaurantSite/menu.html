@@ -5,32 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Big Bubba Dubba Burga</title>
+    <title>Big Bubba Burga</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles//restaurantStyles.css">
+
 </head>
 
 <body>
     <main>
         <header>
-            <h1>Big Bubba Dubba Burga</h1>
+            <h1 class='text-center'>Big Bubba Burga</h1>
             <hr />
         </header>
 
-        <nav>
-            <p><a href="index.html">Home</a></p>
-            <p><a href="menu.html">Menu</a></p>
-            <p><a href="contact.html">Contact Us</a></p>
+        <nav class='col-md-12 mb-3'>
+            <div class="container">
+                <ul class="nav nav-tabs justify-content-center">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="menu.html" class="nav-link">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
+        <hr />
 
-        <section>
-            <table>
-                <thead>
+        <!-- begin menu -->
+        <section class='container'>
+            <table class='menu'>
+                <thead class='menu-head'>
                     <tr>
                         <th>Burga & Fries</th>
                         <th>Hot Dog & Chips</th>
-                        <th>Dubba Burga Combo</th>
+                        <th>Double Burga Combo</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody class='menu-body'>
                     <tr>
                         <td>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -45,22 +62,22 @@
                             Commodi tenetur vero sapiente nesciunt.
                         </td>
                     </tr>
-                    <tr>
+                    <tr class='menu-price'>
                         <td>$5.50</td>
                         <td>$5.95</td>
                         <td>$8.95</td>
                     </tr>
                 </tbody>
             </table>
-            <table>
-                <thead>
+            <table class='menu'>
+                <thead class='menu-head'>
                     <tr>
-                        <th>Tripa Burga Combo & Chips</th>
+                        <th>Triple Burga Combo & Chips</th>
                         <th>Sausage & Fries</th>
-                        <th>Dubba Dog Combo</th>
+                        <th>Double Dog Combo</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody class='menu-body'>
                     <tr>
                         <td>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -75,20 +92,60 @@
                             Commodi tenetur vero sapiente nesciunt.
                         </td>
                     </tr>
-                    <tr>
+                    <tr class='menu-price'>
                         <td>$10.80</td>
                         <td>$5.95</td>
                         <td>$7.50</td>
                     </tr>
                 </tbody>
             </table>
+
+            <!-- begin beverages -->
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Beverages</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Coca-Cola</td>
+                    <td>$2.00</td>
+                  </tr>
+                  <tr>
+                    <td>Sprite</td>
+                    <td>$2.00</td>
+                  </tr>
+                  <tr>
+                    <td>Iced Tea</td>
+                    <td>$1.50</td>
+                  </tr>
+                  <tr>
+                    <td>Lemonade</td>
+                    <td>$1.50</td>
+                  </tr>
+                  <tr>
+                    <td>Bottled Water</td>
+                    <td>$1.25</td>
+                  </tr>
+                </tbody>
+              </table>
+              <br/>
+              <!-- end beverages -->
         </section>
-        <footer>
-            <hr />
-            <p>1280 Hot Burger Way Charlotte, NC 28207</p>
-            <p>704-804-7896</p>
+        <!-- end menu -->
+        <footer class='text-center footer'>
+            <span>1280 Hot Burger Way Charlotte, NC 28207</span> <br />
+            <span>704-804-7896</span>
         </footer>
     </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

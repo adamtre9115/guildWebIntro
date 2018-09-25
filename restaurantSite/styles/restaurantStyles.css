@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+/*********** 
+universal
+***********/
+html {
+  /* sticky footer */
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  /* sticky footer */
+  margin-bottom: 60px;
+}
+
+.navigation {
+  padding: 0;
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+.nav-link {
+  color: #000;
+}
+
+.nav-link:hover {
+  font-weight: bold;
+  color: #8d0e16;
+}
+
+.nav-link:visited {
+  color: #808080;
+}
+
+.footer {
+  background-color: #1e404e;
+  color: #f5f5f5;
+  padding: 20px 0px;
+  /* margin-top: 5px; */
+  /* sticky footer */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: autpx;
+  /* end sticky footer */
+}
+
+/********** 
+ home
+**********/
+.home-page {
+  background-color: #fff;
+}
+
+#carousel img {
+  height: 165px;
+}
+
+#whatIs {
+  padding: 10px 0px;
+  background-color: #000;
+  color: #c2ae83;
+}
+
+#about .text {
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
+  padding-top: 30px;
+}
+
+@media (min-width: 768px) {
+  #carousel img {
+    height: auto;
+  }
+}
+
+@media (min-width: 1240px) {
+    /* home page */
+  
+    #about .text {
+      padding: 50px 15px;
+    }
+  }
+
+/**********
+ menu 
+**********/
+.menu-head th,
+.menu-body td,
+.menu-price {
+  text-align: center;
+}
+
+.menu,
+.menu-head {
+  border: 1px solid #808080;
+  background-color: #252729;
+  color: #fff;
+}
+
+.menu-head th {
+  font-size: 16px;
+  padding: 5px;
+}
+
+.menu-body td {
+  padding: 10px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  color: #fff;
+  background-color: rgba(37, 39, 41, 1);
+}
+
+@media (min-width: 760px) {
+    /* menu page */
+  .table {
+    width: 55%;
+    margin: auto;
+  }
+
+  .table-striped {
+      margin-bottom: 30px;
+  }
+}
+
+/********  
+ contact
+********/
+#form {
+    margin-bottom: 30px;
+}
+
+.input-head {
+  font-weight: bold;
+}
+
+input[type="submit"] {
+  background-color: #1e404e;
+  color: #fff;
+  padding: 10px;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  background-color: #252729;
+  color: #c2ae83;
+}
