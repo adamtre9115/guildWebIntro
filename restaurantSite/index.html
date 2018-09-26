@@ -7,9 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Big Bubba Burga</title>
 
+    <!-- bootstrap 4 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+
+    <!-- personal styles -->
     <link rel="stylesheet" href="./styles//restaurantStyles.css">
+
+    <!-- font awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB"
+        crossorigin="anonymous"></script>
 
     <noscript>
         <h1>Hi! This site works best with JavaScript enabled. You should consider enabling it.</h1>
@@ -27,13 +34,13 @@
             <div class="container">
                 <ul class="nav nav-tabs justify-content-center">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="menu.html" class="nav-link">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a href="contact.html" class="nav-link">Contact Us</a>
+                        <a href="contact.html" class="nav-link"><i class="fas fa-phone"></i> Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -43,15 +50,15 @@
             <!-- begin carousel -->
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="d-block w-100" src="./images/location.png" alt="New Restaurant Opening Soon">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./images/oktober.png" alt="OktoberFest">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./images/seasonal.png" alt="Seasonal Menu Beginning">
-                  </div>
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="./images/location.png" alt="New Restaurant Opening Soon">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./images/oktober.png" alt="OktoberFest">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./images/seasonal.png" alt="Seasonal Menu Beginning">
+                    </div>
                 </div>
                 <!-- <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -61,25 +68,37 @@
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a> -->
-              </div>
+            </div>
             <!-- end carousel -->
         </section>
 
-        <section id ='about' class='text-center'>
+        <section id='about' class='text-center'>
             <article>
                 <div id='whatIs'>
                     <h2>What is Big Bubba Burga?</h2>
                 </div>
                 <p class='container text'>
-                    The only place to get the best burga's around! sit amet consectetur adipisicing elit. Dolor expedita, vitae, ad consequuntur
+                    The only place to get the best burga's around! sit amet consectetur adipisicing elit. Dolor
+                    expedita, vitae, ad consequuntur
                     dolores reiciendis dicta facilis veniam sapiente enim, id pariatur error iste quia nemo maxime
                     beatae et commodi!
                 </p>
             </article>
         </section>
         <footer class='text-center footer'>
-            <span>1280 Hot Burger Way Charlotte, NC 28207</span> <br/>
-            <span>704-804-7896</span>
+            <div class="container">
+                <div class="row">
+                    <article class="col-md-4">
+                        <span>&copy;2018 All Rights Reserved</span>
+                    </article>
+                    <article class="col-md-4">
+                        <span>1280 Hot Burger Way Charlotte, NC 28207</span>
+                    </article>
+                    <article class="col-md-4">
+                        <span><i class="fas fa-phone"></i> 704-804-7896</span>
+                    </article>
+                </div>
+            </div>
         </footer>
     </main>
 
