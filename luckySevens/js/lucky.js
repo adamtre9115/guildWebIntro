@@ -119,6 +119,7 @@ function continueGame() {
 function initializeButtons() {
   Begin.addEventListener("click", function() {
     playGame();
+    Begin.classList.add('hidden');
   });
 
   restartBtn.addEventListener("click", function() {
